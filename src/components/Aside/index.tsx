@@ -9,7 +9,14 @@ import {
   MdExitToApp,
 } from "react-icons/md";
 
-import { Container, Header, LogoImg, Title, MenuContainer } from "./styles";
+import {
+  Container,
+  Header,
+  LogoImg,
+  Title,
+  MenuContainer,
+  MenuLink,
+} from "./styles";
 
 const Aside: React.FC = () => {
   return (
@@ -20,25 +27,25 @@ const Aside: React.FC = () => {
       </Header>
 
       <MenuContainer>
-        <Link className='menu-link' to='/dashboard'>
+        <MenuLink className='menu-link' href='/dashboard'>
           <MdDashboard />
           Dashboard
-        </Link>
+        </MenuLink>
 
-        <Link className='menu-link' to='/list/entry-balance'>
+        <MenuLink className='menu-link' href='/list/entry-balance'>
           <MdArrowUpward />
           Entradas
-        </Link>
+        </MenuLink>
 
-        <Link className='menu-link' to='/list/withdraw-balance'>
+        <MenuLink className='menu-link' href='/list/withdraw-balance'>
           <MdArrowDownward />
           Saídas
-        </Link>
+        </MenuLink>
 
-        <Link className='menu-link' to='#'>
+        <MenuLink className='menu-link' href='#'>
           <MdExitToApp />
           Sair
-        </Link>
+        </MenuLink>
       </MenuContainer>
     </Container>
   );
