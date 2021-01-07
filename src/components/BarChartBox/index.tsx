@@ -36,12 +36,12 @@ const BarChartBox: React.FC<IBarChartProps> = ({ title, data }) => {
       <SideRight>
         <ResponsiveContainer>
           <BarChart data={data}>
-            <Bar dataKey='amount'>
+            <Bar dataKey='amount' name='Valor'>
               {data.map((indicator) => (
                 <Cell key={indicator.name} fill={indicator.color} />
               ))}
             </Bar>
-            {/* <Tooltip /> */}
+            <Tooltip cursor={false} />
           </BarChart>
         </ResponsiveContainer>
       </SideRight>
