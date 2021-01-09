@@ -1,4 +1,34 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const animate = keyframes`
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+`;
+
+const animateForm = keyframes`
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+`;
 
 export const Container = styled.div`
   height: 100vh;
@@ -25,6 +55,8 @@ export const Logo = styled.div`
     width: 40px;
     height: 40px;
   }
+
+  animation: ${animate} 0.5s;
 `;
 
 export const Form = styled.form`
@@ -35,6 +67,8 @@ export const Form = styled.form`
 
   border-radius: 10px;
   background-color: ${(props) => props.theme.colors.tertiary};
+
+  animation: ${animateForm} 0.5s;
 `;
 
 export const FormTitle = styled.h1`
