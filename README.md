@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-Dashboard desenvolvido em **ReactJs** com **TypeScript** inteiramente componentizado com **componentes puros**. O Dashboard foi desenvolvido através do curso [**React e TypeScript: desenvolvendo um Dashboard**](https://www.udemy.com/course/react-e-typescript/)
+Dashboard desenvolvido em **ReactJs** com **TypeScript** inteiramente componentizado com **componentes puros**. O Dashboard foi desenvolvido através do curso [**React e TypeScript: desenvolvendo um Dashboard**](https://www.udemy.com/course/react-e-typescript/){:target="\_blank" rel="noopener"}
 
 <div align="center" >
   <img src="./docs/assets/dashboard.gif">
