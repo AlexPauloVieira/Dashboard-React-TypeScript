@@ -13,13 +13,13 @@ Não há banco de dados. Os dados são carregados de 2 arquivos que contém arra
 ### Layout & Componentes Responsivos
 
 <div align="center" >
-  <img src="./docs/assets/resposiveview.gif">
+  <img src="./docs/assets/responsiveview.gif">
 </div>
 
 ### Layout & Componentes Responsivos
 
 - [x] Para os gráficos, foi utilizada a bibliteca [**Recharts**](http://recharts.org/en-US) que é opensource.
-- [x] Para efeito de número crescendo eu utilizei o [**React CountUp**](https://www.npmjs.com/package/react-countup).
+- [x] Para efeito de número crescendo foi utilizada a bibliteca [**React CountUp**](https://www.npmjs.com/package/react-countup).
 
 ### Certificado de conclusão obtido
 
