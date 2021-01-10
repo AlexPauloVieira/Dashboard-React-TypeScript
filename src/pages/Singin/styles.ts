@@ -56,7 +56,7 @@ export const Logo = styled.div`
     height: 40px;
   }
 
-  animation: ${animate} 0.5s;
+  animation: ${animate} 1s;
 `;
 
 export const Form = styled.form`
@@ -68,7 +68,7 @@ export const Form = styled.form`
   border-radius: 10px;
   background-color: ${(props) => props.theme.colors.tertiary};
 
-  animation: ${animateForm} 0.5s;
+  animation: ${animateForm} 1s;
 `;
 
 export const FormTitle = styled.h1`
